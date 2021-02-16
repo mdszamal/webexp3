@@ -11,7 +11,6 @@ import numpy as np
 
 #naming our app as app
 app= Flask(__name__)
-model= joblib.load(open("model.pkl", "rb"))
 
 @app.route("/")
 def home():
